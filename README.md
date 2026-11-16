@@ -57,6 +57,7 @@ No version is credited to a law. The Constitution's version, and the first set o
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before and compares it with the corpus, whose hash is in `data/corpus.sha256`; it also checks that every commit's trailers parse, that `main` has no merge commits and that no commit is dated in the future.
 - `tools/build.py` writes the history from that one corpus file, and the same corpus gives the same commit hashes. [`REPRODUCE.md`](REPRODUCE.md) records that the checks were not yet run for this build and that no second build has been compared.
 - The sha256 of the page the Constitution was parsed from is in `data/versions.json`. The page's footnote markers are dropped; its amendment notes are kept below a line at the end of the articles they concern.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -76,6 +77,10 @@ No version is credited to a law. The Constitution's version, and the first set o
 See [`LICENSE`](LICENSE). Legislative Decree (Law) No. 22 of 2006, Article 4(2), excludes statutes and all official documents from copyright protection, while the Commission's site terms reserve rights in its content; the text is published only under the Article 4(2) exemption and will be withdrawn on request. The Wikidata facts are CC0 1.0, and so are Lexifina's history, commit messages, tables and tools.
 
 No AI model wrote, translated or corrected legal text; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/): charts drawn from this repository. Not drawn yet.
 
 ## More
 
