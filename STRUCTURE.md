@@ -13,6 +13,7 @@ amended instrument's file names them in its header.
 | `المراسيم/` | decrees (مرسوم) | `المراسيم/<السنة>/<رقم>.md` |
 | `القرارات/` | decisions of the Cabinet, ministers and public bodies | `القرارات/<الجهة>/<السنة>/<رقم>.md` |
 | `أحكام-المحكمة-الدستورية/` | judgments of the Constitutional Court | `أحكام-المحكمة-الدستورية/<السنة>/<رقم الدعوى>.md` |
+| `الآراء-القانونية/` | legal opinions of the Legislation and Legal Opinion Commission, as it publishes them (heading and principle of each published passage) | `الآراء-القانونية/<السنة>/<رقم الرأي>.md` |
 | `legal-system/` | notes on the state and its institutions (English) | |
 | `data/`, `tools/`, `visualisations/`, `vulnerabilities/` | tables, scripts and reports about the record | |
 
@@ -28,3 +29,5 @@ copyright by Law No. 22 of 2006, art. 4(2).
 
 Until 2026-11-26 the English Constitution was in `constitution/art-NNN.md`; it was renamed to
 `الدستور/الترجمة-الإنجليزية/art-NNN.md` in one commit (`data/paths.json`).
+
+Legal opinions: one file per opinion, one commit, dated by the issue date the Commission prints (`Kind: opinion`).
