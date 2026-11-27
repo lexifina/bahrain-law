@@ -9,11 +9,11 @@ The law of Bahrain as a git history: one file per provision, one commit per vers
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Bahrain's national law, which global-law reads at `bahrain/national/acts/`.
 
-**What is in it now:** the Constitution of the Kingdom of Bahrain as amended, in one version: its preamble and Articles 1 to 125 (126 provisions), as the Legislation and Legal Opinion Commission publishes them in English. Beside it, `legal-system/` holds four files of facts about the state from Wikidata, in two versions; they are not law. No statute, decree-law, regulation or treaty is here yet. [`constitution/README.md`](constitution/README.md) lists every provision; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
+**What is in it now:** Bahrain's legislation in Arabic from the Legislation and Legal Opinion Commission, 1971 to 2026: 542 laws, 797 decree-laws, 823 decrees, 489 royal and amiri orders and 9,298 decisions of the Cabinet, ministers and public bodies, each as issued; 401 legal opinions of the Commission; 3 Constitutional Court judgments; and the Constitution in the Commission's English translation. Beside them, `legal-system/` holds facts about the state from Wikidata; they are not law. [`STRUCTURE.md`](STRUCTURE.md) sets out the folders; [`REPRODUCE.md`](REPRODUCE.md) says how the first files were made.
 
-Each act is a folder with one file per provision: `constitution/art-001.md` is Article 1 and `constitution/preamble.md` the preamble.
+Each instrument is one file (`القوانين/<year>/<number>.md`); the Constitution is a folder with one file per provision: `الدستور/الترجمة-الإنجليزية/art-001.md` is Article 1 and `الدستور/الترجمة-الإنجليزية/preamble.md` the preamble.
 
-The text is in English, the Commission's unofficial translation. The Arabic text, which is the official one and prevails, is not part of this record.
+The legislation is in Arabic, the official text, as the Commission publishes it. The Constitution is here only in the Commission's unofficial English translation; its Arabic text, which prevails, is not part of this record yet.
 
 ## Questions as git commands
 
